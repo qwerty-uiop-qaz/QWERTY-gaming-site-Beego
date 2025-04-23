@@ -76,7 +76,7 @@ type AppController struct {
 
 // Get implemented Get() method for AppController.
 func (this *AppController) Get() {
-	this.TplName = "index.html"
+	this.TplName = "welcome.html"
 }
 
 // Join method handles POST requests for AppController.
